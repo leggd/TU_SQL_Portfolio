@@ -1,8 +1,6 @@
 -- SELECT Query --
-
 USE HomescanFinal;
 GO
-
--- Select and Display Selected Rows from the ‘Device’ table
+-- Retrieve UserID, MacAddress and DeviceType Columns from the â€˜Deviceâ€™ table
 SELECT d.UserID, d.MacAddress, d.DeviceType
 FROM Device AS d;
